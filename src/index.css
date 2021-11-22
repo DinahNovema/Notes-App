@@ -1,0 +1,132 @@
+.Form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 150px;
+}
+.Title-Notes {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #312330;
+  padding: 20px 0 0 0;
+  margin: 100px;
+}
+.Notes {
+  align-self: center;
+  border: 0.5px solid #a69b63;
+  background-color: #fff587;
+  border-radius: 20px;
+  padding: 10px 0 130px 20px;
+  width: 300px;
+  height: 80px;
+  margin: -100px 0 20px 0;
+  font-family: "Poppins";
+  resize: none;
+  overflow: hidden;
+}
+.Submit-Button {
+  align-self: center;
+  border-radius: 50px;
+  border: none;
+  background-color: #a8c0ce;
+  font-family: "Poppins";
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  width: 100px;
+  height: 30px;
+}
+.Submit-Button:hover {
+  cursor: pointer;
+  background-color: #85a7bb;
+}
+.Note-Wrapper {
+  display: grid;
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 20px;
+  width: 260px;
+  height: 150px;
+  border: 1px dashed rgb(109, 107, 107);
+  border-radius: 20px;
+  background-color: #efefef;
+  word-break: break-all;
+}
+.Date-Note {
+  padding: 10px 10px 15px 10px;
+  font-family: "poppins";
+  font-size: smaller;
+  font-weight: bold;
+  color: #768591;
+  border-bottom: 1px dashed tomato;
+  word-break: break-all;
+}
+.Status-Note {
+  padding-left: 10px;
+  font-family: "poppins";
+  font-size: medium;
+}
+.Delete-Wrapper,
+.Edit-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Delete-Button {
+  border: none;
+  margin: -55px 6px 0 0;
+}
+.Delete-Button:hover {
+  color: #d90b1c;
+}
+.Edit-Button {
+  border: none;
+  margin: -55px 30px 0 0;
+}
+
+.Edit-Button:hover {
+  color: rgb(64, 160, 64);
+}
+.Close-Button {
+  margin-left: 105px;
+  border: none;
+}
+.Close-Button:hover {
+  color: red;
+}
+.Note-Modal-Wrapper {
+  display: grid;
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  border: 1px dashed rgb(109, 107, 107);
+  border-radius: 20px;
+  background-color: #efefef;
+}
+.Status-Edit-Note {
+  align-self: center;
+  margin: 10px 0 0 10px;
+  padding: 10px 20px 70px 20px;
+  width: 220px;
+  height: 80px;
+  border: 0.5px solid rgb(109, 107, 107);
+  background-color: #efefef;
+  border-radius: 20px;
+  font-family: "Poppins";
+  resize: none;
+  overflow: hidden;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.Update-Button {
+  border: none;
+  margin: -2px -50px 0 60px;
+}
+.Update-Button:hover {
+  color: rgb(64, 160, 64);
+}
